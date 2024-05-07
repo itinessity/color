@@ -1,0 +1,12 @@
+.holder
+{
+  max-width: 100vw;
+  background-color: #171717;
+}
+
+.poster
+{
+  width: 100%;
+  max-width: content-box;
+  margin: 0;
+}
