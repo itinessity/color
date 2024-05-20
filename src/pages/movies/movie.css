@@ -1,0 +1,65 @@
+.placeholder {
+  margin: auto;
+  max-width: 70vw;
+  padding-top: 1em;
+}
+
+.email-form-full-width {
+  width: 100%;
+}
+
+.email-btn
+{
+  margin: 1em;
+}
+
+.search-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscr
+{
+  margin: auto;
+  max-width: 70vw;
+  padding: 2em;
+}
+.email-btn
+{
+  margin: 0.5em;
+  cursor: pointer;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  padding-left:  0.7em;
+  padding-right:  0.7em;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+}
+
+.email-btn:disabled
+{
+  background-color: black;
+}
+
+.email-btn:enabled
+{
+  background-color: #8c8c8c;
+  color: black;
+}
+
+
+mat-form-field mat-form-field-outline {
+
+}
+
+mat-form-field input, ::placeholder {
+  color:  #8c8c8c!important;
+}
+
+mat-form-field mat-label
+{
+  color:  #8c8c8c!important;
+}

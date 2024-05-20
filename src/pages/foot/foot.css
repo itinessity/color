@@ -2,4 +2,30 @@
 {
   background-color: #171717;
   min-height: 3em;
+  padding-top: 1em;
+}
+
+.company
+{
+  text-align: center;
+}
+
+.company a
+{
+  text-decoration: none;
+}
+
+.company a:hover
+{
+  color: white;
+}
+
+.icon-block
+{
+  text-align: center;
+}
+.icon-block i
+{
+  font-size: 1.5em;
+  padding: 0.2em;
 }

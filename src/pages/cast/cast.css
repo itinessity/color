@@ -1,0 +1,64 @@
+.name
+{
+  color: white;
+  font-size: 3em;
+  margin-bottom: 0.2em;
+}
+
+.photo img
+{
+  width: 100%;
+}
+
+.photo
+{
+  max-width: 15em;
+}
+
+.holder
+{
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto auto;
+  grid-column-gap: 1em;
+}
+
+.main
+{
+  margin: auto;
+}
+
+.links img
+{
+  max-width: 2.5em;
+}
+
+.description
+{
+  white-space: collapse balance;
+  margin-bottom: 1em;
+}
+
+.actor
+{
+  margin: auto;
+  max-width: 80vw;
+  padding-top: 1em;
+}
+
+.title
+{
+  margin-bottom: 0.5em;
+}
+
+@media(max-width: 760px) {
+
+  .holder
+  {
+    display: block;
+  }
+  .photo
+  {
+    margin: auto;
+  }
+}

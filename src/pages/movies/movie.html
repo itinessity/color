@@ -1,1 +1,15 @@
-clips
+<div class="wrapper">
+  <div class="placeholder">
+    Thank you for your interest in our project. Our short film is scheduled for release in August. <br>Stay tuned for updates!
+  </div>
+
+  <div class="subscr">
+  <mat-form-field class="email-form-full-width" appearance="outline">
+    <mat-label>Email</mat-label>
+    <input type="email" matInput [formControl]="emailControl" [errorStateMatcher]="matcher"
+           placeholder="Ex. pat@example.com">
+    <button matSuffix class="email-btn"  type="button" [disabled]="emailControl.invalid" (click)="submit()">Submit</button>
+  </mat-form-field>
+  </div>
+
+</div>
