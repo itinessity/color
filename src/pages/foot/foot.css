@@ -1,8 +1,9 @@
 .holder
 {
-  background-color: #171717;
   min-height: 3em;
   padding-top: 1em;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-style: italic;
 }
 
 .company
@@ -28,4 +29,9 @@
 {
   font-size: 1.5em;
   padding: 0.2em;
+}
+
+.icon-block i:hover
+{
+  color: white;
 }

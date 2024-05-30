@@ -11,7 +11,7 @@ import {ErrorStateMatcher} from "@angular/material/core";
 })
 export class MovieComponent {
   submitted = false;
-  mailChimpEndpoint = 'https://the-banished.us21.list-manage.com/subscribe/post-json?u=aa13a26086f34e69f3e1a6c85&amp;id=9c172380ae&amp;f_id=007ef0e6f0';
+  mailChimpEndpoint = 'https://the-banished.us21.list-manage.com/subscribe/post-json?u=aa13a26086f34e69f3e1a6c85&amp;id=433d5d30ee&amp;f_id=007ef0e6f0';
 
   constructor(private http: HttpClient, private _snackBar: MatSnackBar) { }
 

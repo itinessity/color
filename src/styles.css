@@ -5,4 +5,5 @@
 }
 
 html, body { height: 100%; }
-body { margin: 0; font-family: "courier-std", monospace; }
+body { margin: 0;
+  font-family: "Times New Roman", serif; }

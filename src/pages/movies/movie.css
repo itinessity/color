@@ -1,3 +1,14 @@
+.wrapper
+{
+  background-image: url("../../assets/back.webp");
+}
+
+.content
+{
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+
 .placeholder {
   margin: auto;
   max-width: 70vw;
@@ -30,10 +41,7 @@
 {
   margin: 0.5em;
   cursor: pointer;
-  padding-bottom: 0.5em;
-  padding-top: 0.5em;
-  padding-left:  0.7em;
-  padding-right:  0.7em;
+  padding: 0.5em 0.7em;
   border-radius: 10px;
   border: none;
   font-size: 18px;
@@ -51,10 +59,6 @@
 }
 
 
-mat-form-field mat-form-field-outline {
-
-}
-
 mat-form-field input, ::placeholder {
   color:  #8c8c8c!important;
 }
@@ -62,4 +66,41 @@ mat-form-field input, ::placeholder {
 mat-form-field mat-label
 {
   color:  #8c8c8c!important;
+}
+
+.titles
+{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  padding-bottom: 3em;
+  margin: auto;
+  max-width: 70vw;
+}
+
+.text-block
+{
+  font-size: 1.2em;
+  color: white;
+  margin: auto;
+}
+
+.poster-block
+{
+  margin: auto;
+  max-width: 25em;
+}
+
+.genre
+{
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 1em;
+}
+
+.poster-art
+{
+  width: 100%;
+  box-shadow: 0 0 50px 15px #98827a;
 }

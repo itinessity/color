@@ -1,6 +1,8 @@
 .wrapper
 {
-
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
 }
 
 .main-block
@@ -8,4 +10,18 @@
   min-height: 100vh;
   background-color: #171717;
   color: #8c8c8c;
+  grid-area: 1/1;
+}
+
+.top
+{
+  grid-area: 1/1;
+  z-index: 1;
+  height: fit-content;
+}
+
+.bottom
+{
+  grid-area: 1/1;
+  margin-top: auto;
 }

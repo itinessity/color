@@ -1,15 +1,29 @@
 <div class="wrapper">
-  <div class="placeholder">
-    Thank you for your interest in our project. Our short film is scheduled for release in August. <br>Stay tuned for updates!
-  </div>
+  <div class="content">
+    <div class="titles">
+      <div class="text-block">
+        <div class="genre">
+          Drama • Thriller
+        </div>
+        In the fast-paced world of advertising, Albert is a successful creative director whose career seems unstoppable.
+        But everything changes when he realizes he's colorblind now.
+      </div>
+      <div class="poster-block">
+        <img src="assets/film.webp" alt="movie poster" class="poster-art">
+      </div>
+    </div>
+    <div class="placeholder">
+      Thank you for your interest in our project. Our short film is scheduled for release in August. Stay tuned for updates!
+    </div>
 
-  <div class="subscr">
-  <mat-form-field class="email-form-full-width" appearance="outline">
-    <mat-label>Email</mat-label>
-    <input type="email" matInput [formControl]="emailControl" [errorStateMatcher]="matcher"
-           placeholder="Ex. pat@example.com">
-    <button matSuffix class="email-btn"  type="button" [disabled]="emailControl.invalid" (click)="submit()">Submit</button>
-  </mat-form-field>
+    <div class="subscr">
+    <mat-form-field class="email-form-full-width" appearance="outline">
+      <mat-label>Email</mat-label>
+      <input type="email" matInput [formControl]="emailControl" [errorStateMatcher]="matcher"
+             placeholder="Ex. pat@example.com">
+      <button matSuffix class="email-btn"  type="button" [disabled]="emailControl.invalid" (click)="submit()">Submit</button>
+    </mat-form-field>
+    </div>
   </div>
 
 </div>

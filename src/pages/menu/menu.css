@@ -1,11 +1,11 @@
 .holder
 {
-  background-color: #171717;
-  min-height: 3em;
+  min-height: 1em;
   display: grid;
   grid-template-columns: 20% 64%;
   grid-template-rows: auto;
   grid-column-gap: 1em;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 @media(max-width: 912px){
@@ -20,7 +20,7 @@
 .logo
 {
   grid-area: 1/1;
-  padding: 2em;
+  padding: 1em;
 }
 
 .logo a
@@ -29,29 +29,43 @@
   vertical-align: middle;
   font-size: 2em;
   horiz-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 0.3em;
+}
+.empth
+{
+  color: #6f1c20;
 }
 
-.holder a
+.logo a:hover
 {
+  color: white;
+}
+
+.empth:hover
+{
+  color: #8c8c8c;
+}
+
+.menu a
+{
+  text-decoration: none;
   color: #8c8c8c;
   padding: 1em;
   cursor: pointer;
-  text-decoration: underline transparent;
-  transition: text-decoration 300ms ease-in;
+  font-style: italic;
 }
 
-.holder a:hover
+.menu a:hover
 {
-  text-decoration: underline;
-  text-decoration-color: #8c8c8c;
-  text-decoration-thickness: 4px;
-  text-underline-offset: 5px;
+  color: white;
 }
 
 .menu
 {
   margin: auto;
-  padding: 2em;
+  padding: 1em;
   grid-area: 1/2;
 }
 
@@ -60,6 +74,6 @@
   display: inline-block;
   height: auto;
   vertical-align: middle;
-  font-size: 2em;
+  font-size: 1.5em;
   horiz-align: center;
 }
