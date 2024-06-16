@@ -33,3 +33,19 @@
 {
   color: white;
 }
+
+.info img
+{
+  float: right;
+  margin: 5px;
+  width: 100%;
+  max-width: 15em;
+}
+
+.info
+{
+  max-width: 70vw;
+  margin: auto;
+  font-size: 1.2em;
+  padding: 1em 1em 5em;
+}
